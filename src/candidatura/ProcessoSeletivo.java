@@ -9,6 +9,7 @@ public class ProcessoSeletivo {
         
         System.out.println("\n=====================================");
         System.out.println("Candidatos Selecionados:");
+        System.out.println("---------------------------------------");
         for(String candidato : selecionados) {
             System.out.println(candidato);
             entrandoEmContato(candidato);
@@ -33,8 +34,10 @@ public class ProcessoSeletivo {
 
         if(atendeu){
             System.err.println("Conseguimos contato com o candidato"); 
+            System.out.println("---------------------------------------");
         }else{
             System.err.println("Não conseguimos contato com o candidato");
+            System.out.println("---------------------------------------");
         }
 
     }
