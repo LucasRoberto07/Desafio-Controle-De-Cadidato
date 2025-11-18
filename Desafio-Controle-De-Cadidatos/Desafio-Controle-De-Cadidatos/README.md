@@ -1,2 +1,0 @@
-# Desafio-Controle-De-Cadidatos
-
